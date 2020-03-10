@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Mar  3 13:49:20 2020
+# Process ID: 12998
+# Current directory: /media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/practica1/sumadorNFor/sumadorNFor.runs/impl_1
+# Command line: vivado -log sumadorNBits.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source sumadorNBits.tcl -notrace
+# Log file: /media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/practica1/sumadorNFor/sumadorNFor.runs/impl_1/sumadorNBits.vdi
+# Journal file: /media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/practica1/sumadorNFor/sumadorNFor.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source sumadorNBits.tcl -notrace

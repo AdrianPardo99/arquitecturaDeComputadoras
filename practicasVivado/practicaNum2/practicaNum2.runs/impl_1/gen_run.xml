@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1583096859">
+  <File Type="PA-TCL" Name="practica.tcl"/>
+  <File Type="REPORTS-TCL" Name="practica_reports.tcl"/>
+  <File Type="OPT-DCP" Name="practica_opt.dcp"/>
+  <File Type="OPT-DRC" Name="practica_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="practica.hwdef"/>
+  <File Type="PWROPT-DCP" Name="practica_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="practica_placed.dcp"/>
+  <File Type="PLACE-IO" Name="practica_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="practica_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="practica_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="practica_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="practica_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="practica_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="practica_physopt.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="practica_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="practica_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="practica_routed_bb.dcp"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-BIT" Name="practica.bit"/>
+  <File Type="ROUTE-BUS-SKEW" Name="practica_bus_skew_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="practica.msk"/>
+  <File Type="BITSTR-RBT" Name="practica.rbt"/>
+  <File Type="BITSTR-NKY" Name="practica.nky"/>
+  <File Type="BITSTR-BMM" Name="practica_bd.bmm"/>
+  <File Type="PDI-FILE" Name="practica.pdi"/>
+  <File Type="ROUTE-DRC" Name="practica_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="practica.mmi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="practica_postroute_physopt.dcp"/>
+  <File Type="ROUTE-DRC-PB" Name="practica_drc_routed.pb"/>
+  <File Type="BG-BGN" Name="practica.bgn"/>
+  <File Type="BG-BIN" Name="practica.bin"/>
+  <File Type="RCFI_FILE" Name="practica.rcfi"/>
+  <File Type="RDI-RDI" Name="practica.vdi"/>
+  <File Type="ROUTE-DRC-RPX" Name="practica_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="practica.drc"/>
+  <File Type="CFI_FILE" Name="practica.cfi"/>
+  <File Type="ROUTE-PWR" Name="practica_power_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="practica.sysdef"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="practica_postroute_physopt_bb.dcp"/>
+  <File Type="NPI_FILE" Name="practica.npi"/>
+  <File Type="ROUTE-PWR-RPX" Name="practica_power_routed.rpx"/>
+  <File Type="RNPI_FILE" Name="practica.rnpi"/>
+  <File Type="ROUTE-PWR-SUM" Name="practica_power_summary_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="practica.ltx"/>
+  <File Type="RBD_FILE" Name="practica.rbd"/>
+  <File Type="ROUTE-STATUS" Name="practica_route_status.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="practica_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="practica_bus_skew_routed.pb"/>
+  <File Type="ROUTE-CLK" Name="practica_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="practica_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="practica_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="practica_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="practica_route_status.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="practica_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="practica_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="practica_methodology_drc_routed.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/practica.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="practica"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/pinesSumador.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/pinesSumador.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,12 @@
+
+{ 
+    crc :  5757089864813929189  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto ca0d053a8ccc418381a931301534cda3 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot simAlumN_behav xil_defaultlib.simAlumN" , 
+    buildDate : "Nov  6 2019" , 
+    buildTime : "21:42:20" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/simAlumN_behav/xsimk\"   \"xsim.dir/simAlumN_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/simAlumN_behav/obj/xsim_1.lnx64.o\" -L\"/tools/Xilinx/Vivado/2019.2/lib/lnx64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

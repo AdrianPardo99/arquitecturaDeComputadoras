@@ -1,0 +1,2 @@
+Breakpoint File Version 1.0
+76 true /media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/practica3/AluN/AluN.srcs/sim_1/new/simAlumN.vhd

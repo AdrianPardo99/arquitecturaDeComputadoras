@@ -1,0 +1,4 @@
+Breakpoint File Version 1.0
+33 true /media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/practica1/sumadorNFor/sumadorNFor.srcs/sim_1/new/sumaNBits.vhd
+32 true /media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/practica1/sumadorNFor/sumadorNFor.srcs/sim_1/new/sumaNBits.vhd
+31 true /media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/practica1/sumadorNFor/sumadorNFor.srcs/sim_1/new/sumaNBits.vhd

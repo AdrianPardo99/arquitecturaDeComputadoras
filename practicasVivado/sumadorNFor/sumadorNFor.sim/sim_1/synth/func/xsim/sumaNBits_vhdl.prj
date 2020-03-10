@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"sumaNBits_func_synth.vhd" \
+"../../../../../sumadorNFor.srcs/sim_1/new/sumaNBits.vhd" \
+
+# Do not sort compile order
+nosort
