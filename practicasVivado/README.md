@@ -1,4 +1,4 @@
-## Nota importante algunos componentes de Vivado estan en la subcarpeta de .src sources\_1 en import para añadir los archivos fuente (imports) ##
+## Nota importante algunos componentes de Vivado estan en la subcarpeta de .src sources\_1 en import para añadir los archivos fuente (VHDL's) ##
 
 Practica 1 bajado a placa es sumadorNFor
 
