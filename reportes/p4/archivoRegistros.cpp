@@ -23,26 +23,26 @@ using namespace std;
 #define BCYN  "\x1B[96m"
 #define BWHT  "\x1B[97m"
 
-class registros{
+class archivoRegistros{
   private:
-    int banco[16],writeData,writeReg,readData1,readData2,shamt;
+    short banco[16],writeData,writeReg,readData1,readData2,shamt;
     bool WR,SHE,DIR,CLR;
   public:
     /* Constructor */
-    registros(){
+    archivoRegistros(){
       srand(time(NULL));
     }
 
     /* Getters and Setters */
-    int getWriteReg(){return this->writeReg;}
+    short getWriteReg(){return this->writeReg;}
 
-    int getWriteData(){return this->writeData;}
+    short getWriteData(){return this->writeData;}
 
-    int getReadData1(){return this->readData1;}
+    short getReadData1(){return this->readData1;}
 
-    int getReadData2(){return this->readData2;}
+    short getReadData2(){return this->readData2;}
 
-    int getShamt(){return this->shamt;}
+    short getShamt(){return this->shamt;}
 
     bool isWR(){return this->WR;}
 
@@ -52,15 +52,15 @@ class registros{
 
     bool isCLR(){return this->CLR;}
 
-    void setWriteReg(int writeReg){this->writeReg=writeReg;}
+    void setWriteReg(short writeReg){this->writeReg=writeReg;}
 
-    void setWriteData(int writeData){this->writeData=writeData;}
+    void setWriteData(short writeData){this->writeData=writeData;}
 
-    void setReadData1(int readData1){this->readData1=readData1;}
+    void setReadData1(short readData1){this->readData1=readData1;}
 
-    void setReadData2(int readData2){this->readData2=readData2;}
+    void setReadData2(short readData2){this->readData2=readData2;}
 
-    void setShamt(int shamt){this->shamt=shamt;}
+    void setShamt(short shamt){this->shamt=shamt;}
 
     void setWR(bool WR){this->WR=WR;}
 
@@ -72,7 +72,7 @@ class registros{
 
     /* Set banco with random number between -32768 to 32767 */
     void set(){
-      for(int i=0; i<16; i++) {
+      for(short i=0; i<16; i++) {
         /* Limite positivo 32767
          * Limite negativo -32768 */
         *(banco+i)=(rand()%65536)-32768;
@@ -81,25 +81,25 @@ class registros{
 
 
     /* Validation function */
-    bool isInReg(int reg){
+    bool isInReg(short reg){
       return (reg<0 || reg>16);
     }
 
-    bool isReg(int reg){
+    bool isReg(short reg){
       return (reg>0&&reg<16);
     }
 
     /* Get banco data */
     void get(){
-      for(int i=0; i<16; i++){
+      for(short i=0; i<16; i++){
         cout<< "Registro["<<i<<"] :=> "<<banco[i]<<"\n";
       }
     }
 
 
     /* Operaciones del banco de registros */
-    void operacionSincrona(int writeData,int writeReg,
-        int readReg1,int readReg2,int shamt,
+    void operacionSincrona(short writeData,short writeReg,
+        short readReg1,short readReg2,short shamt,
         bool WR,bool SHE, bool DIR,
         bool CLR){
       setWR(WR);
@@ -153,14 +153,14 @@ class registros{
 
     /* Operacion que manda a 0 todo el banco de registros */
     void operacionAsincrona(bool CLR){
-      for(int i=0; i<16; i++){
+      for(short i=0; i<16; i++){
         *(banco+i)=0;
       }
       get();
     }
 
     /* Operacion que muestra Registros */
-    void operacionAsincrona(bool CLR, int readReg1, int readReg2){
+    void operacionAsincrona(bool CLR, short readReg1, short readReg2){
       setCLR(CLR);
       if(isCLR()){
         operacionAsincrona(isCLR());
@@ -176,7 +176,7 @@ class registros{
 };
 
 int main(void) {
-  registros r;
+  archivoRegistros r;
   cout<<BBLU<<"Inicializacion\n";
   r.set();
   r.get();
