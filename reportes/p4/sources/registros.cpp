@@ -2,6 +2,7 @@
  * Alumno: Gonzalez Pardo Adrian
  * Grupo: 3CV8
  * Practica 5
+ * Desarrollado para Linux por el define de colores
  */
 #include <bits/stdc++.h>
 using namespace std;
