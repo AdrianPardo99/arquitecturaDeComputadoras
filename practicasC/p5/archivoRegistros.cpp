@@ -99,7 +99,7 @@ class archivoRegistros{
 
     /* Operaciones del banco de registros */
     void operacionSincrona(short writeData,short writeReg,
-        short readReg1,short readReg2,short shamt,
+        short readReg1,short shamt,
         bool WR,bool SHE, bool DIR,
         bool CLR){
       setWR(WR);
@@ -124,18 +124,12 @@ class archivoRegistros{
         return;
       }
 
-      if(isInReg(readReg2)){
-        cout<<BRED<<"Reg2 fuera del limite de registros\n"<<KNRM;
-        return;
-      }
-
       if(isInReg(getShamt())){
         cout<<BRED<<"Shamt fuera del limite de registros\n"<<KNRM;
         return;
       }
 
       setReadData1(banco[readReg1]);
-      setReadData2(banco[readReg2]);
       if(isCLR()){
         operacionAsincrona(isCLR());
         return;
@@ -184,19 +178,19 @@ int main(void) {
   r.operacionAsincrona(1);
 
   cout<<KGRN<<"\n\t\t(Operacion 2)\n\tBANCO[1]=89 <==> operacionSincrona(89,1,0,0,0,1,0,0,0)\n";
-  r.operacionSincrona(89,1,0,0,0,1,0,0,0);
+  r.operacionSincrona(89,1,0,0,1,0,0,0);
   r.get();
 
   cout<<KCYN<<"\n\t\t(Operacion 3)\n\tBANCO[2]=72 <==> operacionSincrona(72,2,0,0,0,1,0,0,0)\n";
-  r.operacionSincrona(72,2,0,0,0,1,0,0,0);
+  r.operacionSincrona(72,2,0,0,1,0,0,0);
   r.get();
 
   cout<<KGRN<<"\n\t\t(Operacion 4)\n\tBANCO[3]=123 <==> operacionSincrona(123,3,0,0,0,1,0,0,0)\n";
-  r.operacionSincrona(123,3,0,0,0,1,0,0,0);
+  r.operacionSincrona(123,3,0,0,1,0,0,0);
   r.get();
 
   cout<<KYEL<<"\n\t\t(Operacion 5)\n\tBANCO[4]=53 <==> operacionSincrona(53,4,0,0,0,1,0,0,0)\n";
-  r.operacionSincrona(53,4,0,0,0,1,0,0,0);
+  r.operacionSincrona(53,4,0,0,1,0,0,0);
   r.get();
 
   cout<<BMAG<<"\n\t\t(Operacion 6)\n\tREAD BANCO[1] & BANCO[2]\n";
@@ -206,11 +200,11 @@ int main(void) {
   r.operacionAsincrona(0,3,4);
 
   cout<<BBLU<<"\n\t\t(Operacion 8)\n\tBANCO[2]=BANCO[1]<<3 <==> operacionSincrona(0,2,1,0,3,1,1,1,0)\n";
-  r.operacionSincrona(0,2,1,0,3,1,1,1,0);
+  r.operacionSincrona(0,2,1,3,1,1,1,0);
   r.get();
 
   cout<<KYEL<<"\n\t\t(Operacion 9)\n\tBANCO[4]=BANCO[3]>>5 <==> operacionSincrona(0,4,3,0,5,1,1,0,0)\n";
-  r.operacionSincrona(0,4,3,0,5,1,1,0,0);
+  r.operacionSincrona(0,4,3,5,1,1,0,0);
   r.get();
 
   cout<<KGRN<<"\n\t\t(Operacion 10)\n\tREAD BANCO[1] & BANCO[2]\n";
