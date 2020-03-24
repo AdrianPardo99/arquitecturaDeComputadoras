@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1585027260">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="registro1.drc"/>
+  <File Type="BG-BGN" Name="registro1.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="registro1.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="registro1.ltx"/>
+  <File Type="RBD_FILE" Name="registro1.rbd"/>
+  <File Type="NPI_FILE" Name="registro1.npi"/>
+  <File Type="RNPI_FILE" Name="registro1.rnpi"/>
+  <File Type="CFI_FILE" Name="registro1.cfi"/>
+  <File Type="RDI-RDI" Name="registro1.vdi"/>
+  <File Type="RCFI_FILE" Name="registro1.rcfi"/>
+  <File Type="PDI-FILE" Name="registro1.pdi"/>
+  <File Type="BITSTR-MMI" Name="registro1.mmi"/>
+  <File Type="BITSTR-BMM" Name="registro1_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="registro1.nky"/>
+  <File Type="BITSTR-RBT" Name="registro1.rbt"/>
+  <File Type="BITSTR-MSK" Name="registro1.msk"/>
+  <File Type="BG-BIN" Name="registro1.bin"/>
+  <File Type="BG-BIT" Name="registro1.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="registro1_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="registro1_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="registro1_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="registro1_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="registro1_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="registro1_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="registro1_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="registro1_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="registro1_bus_skew_routed.rpx"/>
+  <File Type="INIT-TIMING" Name="registro1_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="registro1_opt.dcp"/>
+  <File Type="OPT-DRC" Name="registro1_drc_opted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="registro1_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="registro1_methodology_drc_opted.rpt"/>
+  <File Type="PLACE-UTIL" Name="registro1_utilization_placed.rpt"/>
+  <File Type="OPT-HWDEF" Name="registro1.hwdef"/>
+  <File Type="PHYSOPT-TIMING" Name="registro1_timing_summary_physopted.rpt"/>
+  <File Type="PA-TCL" Name="registro1.tcl"/>
+  <File Type="OPT-TIMING" Name="registro1_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="registro1_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="registro1_drc_pwropted.rpt"/>
+  <File Type="REPORTS-TCL" Name="registro1_reports.tcl"/>
+  <File Type="PWROPT-TIMING" Name="registro1_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="registro1_placed.dcp"/>
+  <File Type="PLACE-IO" Name="registro1_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="registro1_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="registro1_utilization_placed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="registro1_methodology_drc_routed.rpt"/>
+  <File Type="PLACE-CTRL" Name="registro1_control_sets_placed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="registro1_methodology_drc_routed.pb"/>
+  <File Type="PLACE-SIMILARITY" Name="registro1_incremental_reuse_placed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="registro1_drc_routed.rpx"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="registro1_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="registro1_methodology_drc_routed.rpx"/>
+  <File Type="PLACE-TIMING" Name="registro1_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="registro1_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="registro1_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="registro1_drc_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="registro1_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="registro1_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="registro1_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="registro1_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="registro1_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="registro1_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="registro1_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="registro1_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="registro1_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="registro1_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="registro1_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="registro1_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="registro1_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="registro1_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="registro1_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="registro1_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="registro1_bus_skew_routed.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/registro1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="registro1"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
