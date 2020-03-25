@@ -7,3 +7,5 @@ Practica 2 bajado a placa es practicaNum2
 Practica 3 bajado a placa es AluN
 
 Proyecto de registros para el desarrollo de memoria de registros.
+
+Proyecto con simulacion desde archivo en el cual viene desde el proyecto contadorArchivo
