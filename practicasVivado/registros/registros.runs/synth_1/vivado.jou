@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Mar 29 21:47:02 2020
+# Process ID: 26648
+# Current directory: /media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.runs/synth_1
+# Command line: vivado -log archRegistros.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source archRegistros.tcl
+# Log file: /media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.runs/synth_1/archRegistros.vds
+# Journal file: /media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source archRegistros.tcl -notrace

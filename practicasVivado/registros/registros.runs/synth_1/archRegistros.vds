@@ -1,0 +1,343 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Mar 29 21:47:02 2020
+# Process ID: 26648
+# Current directory: /media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.runs/synth_1
+# Command line: vivado -log archRegistros.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source archRegistros.tcl
+# Log file: /media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.runs/synth_1/archRegistros.vds
+# Journal file: /media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source archRegistros.tcl -notrace
+Command: synth_design -top archRegistros -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 26679 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1765.352 ; gain = 214.402 ; free physical = 1098 ; free virtual = 9382
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'archRegistros' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:17]
+INFO: [Synth 8-3491] module 'demuxG' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/demuxG.vhd:3' bound to instance 'WR_writeregister' of component 'demuxG' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'demuxG' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/demuxG.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'demuxG' (1#1) [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/demuxG.vhd:9]
+INFO: [Synth 8-3491] module 'barrel' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/barrel.vhd:5' bound to instance 'Barrel_shifter' of component 'barrel' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'barrel' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/barrel.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'barrel' (2#1) [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/barrel.vhd:12]
+INFO: [Synth 8-3491] module 'mux2' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/mux2.vhd:3' bound to instance 'entrada_registros' of component 'mux2' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'mux2' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/mux2.vhd:9]
+WARNING: [Synth 8-614] signal 'p' is read in the process but is not in the sensitivity list [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/mux2.vhd:11]
+WARNING: [Synth 8-614] signal 's' is read in the process but is not in the sensitivity list [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/mux2.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'mux2' (3#1) [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/mux2.vhd:9]
+INFO: [Synth 8-3491] module 'registro' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/registro.vhd:4' bound to instance 'Registros' of component 'registro' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'registro' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/registro.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'registro' (4#1) [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/registro.vhd:10]
+INFO: [Synth 8-3491] module 'registro' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/registro.vhd:4' bound to instance 'Registros' of component 'registro' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:92]
+INFO: [Synth 8-3491] module 'registro' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/registro.vhd:4' bound to instance 'Registros' of component 'registro' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:92]
+INFO: [Synth 8-3491] module 'registro' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/registro.vhd:4' bound to instance 'Registros' of component 'registro' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:92]
+INFO: [Synth 8-3491] module 'registro' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/registro.vhd:4' bound to instance 'Registros' of component 'registro' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:92]
+INFO: [Synth 8-3491] module 'registro' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/registro.vhd:4' bound to instance 'Registros' of component 'registro' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:92]
+INFO: [Synth 8-3491] module 'registro' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/registro.vhd:4' bound to instance 'Registros' of component 'registro' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:92]
+INFO: [Synth 8-3491] module 'registro' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/registro.vhd:4' bound to instance 'Registros' of component 'registro' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:92]
+INFO: [Synth 8-3491] module 'registro' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/registro.vhd:4' bound to instance 'Registros' of component 'registro' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:92]
+INFO: [Synth 8-3491] module 'registro' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/registro.vhd:4' bound to instance 'Registros' of component 'registro' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:92]
+INFO: [Synth 8-3491] module 'registro' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/registro.vhd:4' bound to instance 'Registros' of component 'registro' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:92]
+INFO: [Synth 8-3491] module 'registro' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/registro.vhd:4' bound to instance 'Registros' of component 'registro' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:92]
+INFO: [Synth 8-3491] module 'registro' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/registro.vhd:4' bound to instance 'Registros' of component 'registro' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:92]
+INFO: [Synth 8-3491] module 'registro' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/registro.vhd:4' bound to instance 'Registros' of component 'registro' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:92]
+INFO: [Synth 8-3491] module 'registro' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/registro.vhd:4' bound to instance 'Registros' of component 'registro' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:92]
+INFO: [Synth 8-3491] module 'registro' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/registro.vhd:4' bound to instance 'Registros' of component 'registro' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:92]
+INFO: [Synth 8-3491] module 'muxGral' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/muxGral.vhd:4' bound to instance 'muxreadData1' of component 'muxGral' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'muxGral' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/muxGral.vhd:25]
+WARNING: [Synth 8-614] signal 'chanel_0' is read in the process but is not in the sensitivity list [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/muxGral.vhd:27]
+WARNING: [Synth 8-614] signal 'chanel_1' is read in the process but is not in the sensitivity list [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/muxGral.vhd:27]
+WARNING: [Synth 8-614] signal 'chanel_2' is read in the process but is not in the sensitivity list [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/muxGral.vhd:27]
+WARNING: [Synth 8-614] signal 'chanel_3' is read in the process but is not in the sensitivity list [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/muxGral.vhd:27]
+WARNING: [Synth 8-614] signal 'chanel_4' is read in the process but is not in the sensitivity list [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/muxGral.vhd:27]
+WARNING: [Synth 8-614] signal 'chanel_5' is read in the process but is not in the sensitivity list [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/muxGral.vhd:27]
+WARNING: [Synth 8-614] signal 'chanel_6' is read in the process but is not in the sensitivity list [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/muxGral.vhd:27]
+WARNING: [Synth 8-614] signal 'chanel_7' is read in the process but is not in the sensitivity list [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/muxGral.vhd:27]
+WARNING: [Synth 8-614] signal 'chanel_8' is read in the process but is not in the sensitivity list [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/muxGral.vhd:27]
+WARNING: [Synth 8-614] signal 'chanel_9' is read in the process but is not in the sensitivity list [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/muxGral.vhd:27]
+WARNING: [Synth 8-614] signal 'chanel_10' is read in the process but is not in the sensitivity list [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/muxGral.vhd:27]
+WARNING: [Synth 8-614] signal 'chanel_11' is read in the process but is not in the sensitivity list [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/muxGral.vhd:27]
+WARNING: [Synth 8-614] signal 'chanel_12' is read in the process but is not in the sensitivity list [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/muxGral.vhd:27]
+WARNING: [Synth 8-614] signal 'chanel_13' is read in the process but is not in the sensitivity list [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/muxGral.vhd:27]
+WARNING: [Synth 8-614] signal 'chanel_14' is read in the process but is not in the sensitivity list [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/muxGral.vhd:27]
+WARNING: [Synth 8-614] signal 'chanel_15' is read in the process but is not in the sensitivity list [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/muxGral.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'muxGral' (5#1) [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/muxGral.vhd:25]
+INFO: [Synth 8-3491] module 'muxGral' declared at '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/muxGral.vhd:4' bound to instance 'muxreadData2' of component 'muxGral' [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:121]
+INFO: [Synth 8-256] done synthesizing module 'archRegistros' (6#1) [/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.srcs/sources_1/new/archRegistros.vhd:17]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1827.102 ; gain = 276.152 ; free physical = 1105 ; free virtual = 9392
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1830.070 ; gain = 279.121 ; free physical = 1152 ; free virtual = 9429
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1838.074 ; gain = 287.125 ; free physical = 1139 ; free virtual = 9420
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1854.988 ; gain = 304.039 ; free physical = 1054 ; free virtual = 9343
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 16    
++---Muxes : 
+	  17 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 10    
+	   2 Input     15 Bit        Muxes := 4     
+	   2 Input     14 Bit        Muxes := 4     
+	   2 Input     13 Bit        Muxes := 4     
+	   2 Input     12 Bit        Muxes := 4     
+	   2 Input     11 Bit        Muxes := 4     
+	   2 Input     10 Bit        Muxes := 4     
+	   2 Input      9 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      7 Bit        Muxes := 3     
+	   2 Input      6 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 49    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module demuxG 
+Detailed RTL Component Info : 
++---Muxes : 
+	  17 Input     16 Bit        Muxes := 1     
+Module barrel 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 9     
+	   2 Input     15 Bit        Muxes := 4     
+	   2 Input     14 Bit        Muxes := 4     
+	   2 Input     13 Bit        Muxes := 4     
+	   2 Input     12 Bit        Muxes := 4     
+	   2 Input     11 Bit        Muxes := 4     
+	   2 Input     10 Bit        Muxes := 4     
+	   2 Input      9 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      7 Bit        Muxes := 3     
+	   2 Input      6 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 49    
+Module mux2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module registro 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 2034.395 ; gain = 483.445 ; free physical = 810 ; free virtual = 9118
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 2034.395 ; gain = 483.445 ; free physical = 811 ; free virtual = 9118
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 2034.395 ; gain = 483.445 ; free physical = 809 ; free virtual = 9117
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 2034.395 ; gain = 483.445 ; free physical = 826 ; free virtual = 9121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 2034.395 ; gain = 483.445 ; free physical = 826 ; free virtual = 9121
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 2034.395 ; gain = 483.445 ; free physical = 826 ; free virtual = 9121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 2034.395 ; gain = 483.445 ; free physical = 826 ; free virtual = 9121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 2034.395 ; gain = 483.445 ; free physical = 826 ; free virtual = 9121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 2034.395 ; gain = 483.445 ; free physical = 826 ; free virtual = 9121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT2  |     2|
+|3     |LUT3  |    58|
+|4     |LUT4  |     4|
+|5     |LUT5  |    32|
+|6     |LUT6  |   160|
+|7     |MUXF7 |    64|
+|8     |MUXF8 |    16|
+|9     |FDCE  |   256|
+|10    |IBUF  |    37|
+|11    |OBUF  |    32|
++------+------+------+
+
+Report Instance Areas: 
++------+------------------------+------------+------+
+|      |Instance                |Module      |Cells |
++------+------------------------+------------+------+
+|1     |top                     |            |   662|
+|2     |  \ciclo[0].Registros   |registro    |    17|
+|3     |  \ciclo[10].Registros  |registro_0  |    17|
+|4     |  \ciclo[11].Registros  |registro_1  |    81|
+|5     |  \ciclo[12].Registros  |registro_2  |    17|
+|6     |  \ciclo[13].Registros  |registro_3  |    17|
+|7     |  \ciclo[14].Registros  |registro_4  |    17|
+|8     |  \ciclo[15].Registros  |registro_5  |    49|
+|9     |  \ciclo[1].Registros   |registro_6  |    17|
+|10    |  \ciclo[2].Registros   |registro_7  |    17|
+|11    |  \ciclo[3].Registros   |registro_8  |   209|
+|12    |  \ciclo[4].Registros   |registro_9  |    17|
+|13    |  \ciclo[5].Registros   |registro_10 |    17|
+|14    |  \ciclo[6].Registros   |registro_11 |    17|
+|15    |  \ciclo[7].Registros   |registro_12 |    49|
+|16    |  \ciclo[8].Registros   |registro_13 |    17|
+|17    |  \ciclo[9].Registros   |registro_14 |    17|
++------+------------------------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 2034.395 ; gain = 483.445 ; free physical = 826 ; free virtual = 9121
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 18 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 2034.395 ; gain = 483.445 ; free physical = 828 ; free virtual = 9123
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 2034.402 ; gain = 483.445 ; free physical = 828 ; free virtual = 9123
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2037.363 ; gain = 0.000 ; free physical = 889 ; free virtual = 9187
+INFO: [Netlist 29-17] Analyzing 80 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2098.188 ; gain = 0.000 ; free physical = 802 ; free virtual = 9116
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 2098.188 ; gain = 561.398 ; free physical = 935 ; free virtual = 9250
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2098.188 ; gain = 0.000 ; free physical = 935 ; free virtual = 9250
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/registros/registros.runs/synth_1/archRegistros.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file archRegistros_utilization_synth.rpt -pb archRegistros_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 29 21:47:51 2020...

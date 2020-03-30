@@ -1,0 +1,94 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
+| Date         : Sun Mar 29 21:52:03 2020
+| Host         : IllBeWithU running 64-bit Ubuntu 18.04.4 LTS
+| Command      : report_control_sets -verbose -file archRegistros_control_sets_placed.rpt
+| Design       : archRegistros
+| Device       : xc7a100t
+------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    16 |
+|    Minimum number of control sets                        |    16 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |     0 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    16 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    16 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             256 |          100 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+---------------------------------------+------------------+------------------+----------------+
+|  Clock Signal  |             Enable Signal             | Set/Reset Signal | Slice Load Count | Bel Load Count |
++----------------+---------------------------------------+------------------+------------------+----------------+
+|  CLK_IBUF_BUFG | ciclo[3].Registros/q[15]_i_1__5_n_0   | clr_IBUF         |                5 |             16 |
+|  CLK_IBUF_BUFG | ciclo[13].Registros/q[15]_i_1__9_n_0  | clr_IBUF         |                3 |             16 |
+|  CLK_IBUF_BUFG | ciclo[5].Registros/q[15]_i_1__6_n_0   | clr_IBUF         |                5 |             16 |
+|  CLK_IBUF_BUFG | ciclo[11].Registros/q[15]_i_1__4_n_0  | clr_IBUF         |                5 |             16 |
+|  CLK_IBUF_BUFG | ciclo[8].Registros/q[15]_i_1__8_n_0   | clr_IBUF         |                8 |             16 |
+|  CLK_IBUF_BUFG | ciclo[9].Registros/q[15]_i_1__10_n_0  | clr_IBUF         |                9 |             16 |
+|  CLK_IBUF_BUFG | ciclo[12].Registros/q[15]_i_1__13_n_0 | clr_IBUF         |                4 |             16 |
+|  CLK_IBUF_BUFG | ciclo[14].Registros/q[15]_i_1__11_n_0 | clr_IBUF         |                8 |             16 |
+|  CLK_IBUF_BUFG | ciclo[15].Registros/q[15]_i_1__14_n_0 | clr_IBUF         |                9 |             16 |
+|  CLK_IBUF_BUFG | ciclo[10].Registros/q[15]_i_1__12_n_0 | clr_IBUF         |                8 |             16 |
+|  CLK_IBUF_BUFG | ciclo[1].Registros/l                  | clr_IBUF         |                4 |             16 |
+|  CLK_IBUF_BUFG | ciclo[6].Registros/q[15]_i_1__7_n_0   | clr_IBUF         |                7 |             16 |
+|  CLK_IBUF_BUFG | ciclo[7].Registros/q[15]_i_1__3_n_0   | clr_IBUF         |                9 |             16 |
+|  CLK_IBUF_BUFG | ciclo[0].Registros/q[15]_i_1_n_0      | clr_IBUF         |                6 |             16 |
+|  CLK_IBUF_BUFG | ciclo[4].Registros/q[15]_i_1__1_n_0   | clr_IBUF         |                6 |             16 |
+|  CLK_IBUF_BUFG | ciclo[2].Registros/q[15]_i_1__0_n_0   | clr_IBUF         |                4 |             16 |
++----------------+---------------------------------------+------------------+------------------+----------------+
+
+

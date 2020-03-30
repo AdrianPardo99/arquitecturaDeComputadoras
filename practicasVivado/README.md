@@ -9,3 +9,5 @@ Practica 3 bajado a placa es AluN
 Proyecto de registros para el desarrollo de memoria de registros.
 
 Proyecto con simulacion desde archivo en el cual viene desde el proyecto contadorArchivo
+
+Practica 5 Archivo de Registros es registros (cambiar ruta de lectura y escritura de archivos de test-bench de archRegTB.vhd)
