@@ -1,1 +1,0 @@
--wto "690c8b42ffaa474283d7ec1928f807f4" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "tbMemoria_behav" "xil_defaultlib.tbMemoria" -log "elaborate.log" 
