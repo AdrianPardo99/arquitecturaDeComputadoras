@@ -9,3 +9,5 @@
 [Reporte 4](p4/11.pdf)
 
 [Reporte 5](p5/11.pdf)
+
+[Reporte 6](p6/11.pdf)
