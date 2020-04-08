@@ -18,8 +18,8 @@ signal res :  STD_LOGIC_VECTOR (15 downto 0);
 signal dir: std_logic;
 signal s :  STD_LOGIC_VECTOR (3 downto 0);
 begin
-    u1 : Barrel 
-    Port map ( 
+    u1 : Barrel
+    Port map (
         dato => dato,
         res  => res,
         dir =>dir,
@@ -47,6 +47,6 @@ begin
         wait;
     end process;
 
-    
+
 
 end Behavioral;

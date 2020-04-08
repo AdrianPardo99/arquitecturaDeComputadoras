@@ -1,0 +1,2 @@
+Breakpoint File Version 1.0
+88 true /media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/memoriaDatos/memoriaDatos.srcs/sim_1/new/tbMemoria.vhd
