@@ -13,3 +13,5 @@ Proyecto con simulacion desde archivo en el cual viene desde el proyecto contado
 Practica 5 Archivo de Registros es registros (cambiar ruta de lectura y escritura de archivos de test-bench de archRegTB.vhd)
 
 Practica 6 Memoria de datos (cambiar ruta de lectura y escritura de archivos de test-bench de tbMemoria.vhd)
+
+Practica 7 Memoria de programa (cambiar ruta de lectura y escritura de archivos de test-bench de tbMemPrograma.vhd)
