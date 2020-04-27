@@ -1,15 +1,17 @@
 /*
  * Alumno: Gonzalez Pardo Adrian
  * Grupo: 3CV8
- * Practica 8
+ * Practica 9
  */
 #include <bits/stdc++.h>
+
+#define tamPC 8
 
 using namespace std;
 class Stack{
 private:
   bool UP,DW,WPC,CLR;
-  unsigned short PC[16],SP;
+  unsigned short PC[tamPC],SP;
   unsigned short PCin,PCout;
 public:
   Stack(){
@@ -76,13 +78,14 @@ public:
   }
 
   void set(){
-    for(int i=0;i<16;i++){
+    for(int i=0;i<tamPC;i++){
       *(PC+i)=(unsigned short)(rand()%65535)-16384;
     }
     setSP(0);
   }
+
   void get(){
-    for(int i=0;i<16;i++){
+    for(int i=0;i<8;i++){
       printf("\tPC[%d] = %d\n",i,*(PC+i));
     }
   }
@@ -95,7 +98,7 @@ public:
     setCLR(CLR);
     if(getCLR()){
       setSP(0);
-      for(int i=0;i<16;i++){
+      for(int i=0;i<tamPC;i++){
         *(PC+i)=0;
       }
       PCout=*(PC+getSP());
@@ -114,7 +117,7 @@ public:
       return;
     }
     if(getWPC()&&getUP()&&!getDW()){
-      if(getSP()+1<16){
+      if(getSP()+1<tamPC){
         setSP(getSP()+1);
       }
       *(PC+getSP())=PCin;
