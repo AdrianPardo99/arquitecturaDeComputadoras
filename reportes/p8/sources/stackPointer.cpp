@@ -1,7 +1,7 @@
 /*
  * Alumno: Gonzalez Pardo Adrian
  * Grupo: 3CV8
- * Practica 8
+ * Practica 9
  */
 #include <bits/stdc++.h>
 
