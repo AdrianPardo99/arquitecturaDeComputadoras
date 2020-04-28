@@ -119,6 +119,8 @@ public:
     if(getWPC()&&getUP()&&!getDW()){
       if(getSP()+1<tamPC){
         setSP(getSP()+1);
+      }else{
+        setSP(0);
       }
       *(PC+getSP())=PCin;
       PCout=*(PC+getSP());
@@ -127,6 +129,8 @@ public:
     if(!getWPC()&&!getUP()&&getDW()){
       if(getSP()>0){
         setSP(getSP()-1);
+      }else{
+        setSP(tamPC-1);
       }
       *(PC+getSP())+=1;
       PCout=*(PC+getSP());
