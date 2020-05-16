@@ -15,3 +15,5 @@ Practica 5 Archivo de Registros es registros (cambiar ruta de lectura y escritur
 Practica 6 Memoria de datos (cambiar ruta de lectura y escritura de archivos de test-bench de tbMemoria.vhd)
 
 Practica 7 Memoria de programa (cambiar ruta de lectura y escritura de archivos de test-bench de tbMemPrograma.vhd)
+
+Practica 10 Pila de Hardware 1 (cambiar ruta de lectura y escritura de archivos de test-bench)
