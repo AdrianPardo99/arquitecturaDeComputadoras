@@ -17,3 +17,5 @@
 [Reporte 8](p8/11.pdf)
 
 [Reporte 9](p9/11.pdf)
+
+[Reporte 10](p10/11.pdf)

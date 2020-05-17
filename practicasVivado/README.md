@@ -17,3 +17,5 @@ Practica 6 Memoria de datos (cambiar ruta de lectura y escritura de archivos de 
 Practica 7 Memoria de programa (cambiar ruta de lectura y escritura de archivos de test-bench de tbMemPrograma.vhd)
 
 Practica 10 Pila de Hardware 1 (cambiar ruta de lectura y escritura de archivos de test-bench)
+
+Practica 11 Pila de Hardware 2 con memoria de programa (cambiar ruta de lectura y escritura de archivos de test-bench)

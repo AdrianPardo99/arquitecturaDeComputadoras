@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../pilaHardware_2.srcs/sources_1/new/pc.vhd" \
+"../../../../pilaHardware_2.srcs/sources_1/new/pila-pc.vhd" \
+"../../../../pilaHardware_2.srcs/sources_1/new/pila.vhd" \
+"../../../../pilaHardware_2.srcs/sim_1/new/pila_TB.vhd" \
+
+# Do not sort compile order
+nosort
