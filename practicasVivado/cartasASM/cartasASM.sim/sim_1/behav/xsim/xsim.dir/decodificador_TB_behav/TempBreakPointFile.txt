@@ -1,0 +1,2 @@
+Breakpoint File Version 1.0
+26 true /run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/cartasASM/cartasASM.srcs/sim_1/new/decodificador_TB.vhd

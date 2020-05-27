@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../cartasASM.srcs/sources_1/new/paqueteEntidades.vhd" \
+"../../../../cartasASM.srcs/sources_1/new/cartaASM.vhd" \
+"../../../../cartasASM.srcs/sources_1/new/contador.vhd" \
+"../../../../cartasASM.srcs/sources_1/new/decodificador.vhd" \
+"../../../../cartasASM.srcs/sources_1/new/muxD.vhd" \
+"../../../../cartasASM.srcs/sources_1/new/registro.vhd" \
+"../../../../cartasASM.srcs/sources_1/new/unidadControl.vhd" \
+"../../../../cartasASM.srcs/sim_1/new/cartaASM_TB.vhd" \
+
+# Do not sort compile order
+nosort

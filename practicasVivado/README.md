@@ -19,3 +19,5 @@ Practica 7 Memoria de programa (cambiar ruta de lectura y escritura de archivos 
 Practica 10 Pila de Hardware 1 (cambiar ruta de lectura y escritura de archivos de test-bench)
 
 Practica 11 Pila de Hardware 2 con memoria de programa (cambiar ruta de lectura y escritura de archivos de test-bench)
+
+Practica 12 Cartas ASM no necesita archivo de lectura en la carpeta esta todo
