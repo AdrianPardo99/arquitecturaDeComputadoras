@@ -21,3 +21,5 @@ Practica 10 Pila de Hardware 1 (cambiar ruta de lectura y escritura de archivos 
 Practica 11 Pila de Hardware 2 con memoria de programa (cambiar ruta de lectura y escritura de archivos de test-bench)
 
 Practica 12 Cartas ASM no necesita archivo de lectura en la carpeta esta todo
+
+Practica 13 Unidad de Control (Para test de cada modulo modificar el top de prioridad de cada archivo "Set as the top", modificar rutas de los archivos de entrada y salida)
