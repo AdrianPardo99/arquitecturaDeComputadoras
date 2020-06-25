@@ -1,0 +1,2 @@
+Breakpoint File Version 1.0
+43 true /run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.srcs/sim_1/new/registro_TB.vhd

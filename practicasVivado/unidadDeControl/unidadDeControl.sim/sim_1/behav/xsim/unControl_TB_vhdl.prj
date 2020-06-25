@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../unidadDeControl.srcs/sources_1/new/paqueteHardware.vhd" \
+"../../../../unidadDeControl.srcs/sources_1/new/unControl.vhd" \
+"../../../../unidadDeControl.srcs/sim_1/new/unControl_TB.vhd" \
+
+# Do not sort compile order
+nosort

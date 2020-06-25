@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:48:12 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Wed Jun 24 18:19:18 2020
+# Process ID: 181209
+# Current directory: /run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.sim/sim_1/synth/timing/xsim
+# Command line: wbtcv -mode batch -source /run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.sim/sim_1/synth/timing/xsim/xsim.dir/arquitectura_TB_time_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.sim/sim_1/synth/timing/xsim/webtalk.log
+# Journal file: /run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.sim/sim_1/synth/timing/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.sim/sim_1/synth/timing/xsim/xsim.dir/arquitectura_TB_time_synth/webtalk/xsim_webtalk.tcl -notrace

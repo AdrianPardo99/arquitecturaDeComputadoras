@@ -1,0 +1,21 @@
+0.6
+2019.2
+Dec  5 2019
+04:51:02
+/run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.srcs/sim_1/new/arquitectura_TB.vhd,1593063446,vhdl,,,,arquitectura_tb,,,,,,,,
+/run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.srcs/sim_1/new/condition_TB.vhd,1593027175,vhdl,,,,condition_tb,,,,,,,,
+/run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.srcs/sim_1/new/decodificador_TB.vhd,1593027687,vhdl,,,,decodificador_tb,,,,,,,,
+/run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.srcs/sim_1/new/level_TB.vhd,1593026588,vhdl,,,,level_tb,,,,,,,,
+/run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.srcs/sim_1/new/mfuncode_TB.vhd,1593028902,vhdl,,,,mfuncode_tb,,,,,,,,
+/run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.srcs/sim_1/new/mopcode_TB.vhd,1593032603,vhdl,,,,mopcode_tb,,,,,,,,
+/run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.srcs/sim_1/new/registro_TB.vhd,1593025557,vhdl,,,,registro_tb,,,,,,,,
+/run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.srcs/sim_1/new/unControl_TB.vhd,1593033555,vhdl,,,,uncontrol_tb,,,,,,,,
+/run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.srcs/sources_1/new/arquitectura.vhd,1593057468,vhdl,,,,arquitectura,,,,,,,,
+/run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.srcs/sources_1/new/condition.vhd,1592971542,vhdl,,,,condition,,,,,,,,
+/run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.srcs/sources_1/new/decInstrucciones.vhd,1592969377,vhdl,,,,decinstrucciones,,,,,,,,
+/run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.srcs/sources_1/new/level.vhd,1592972236,vhdl,,,,level,,,,,,,,
+/run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.srcs/sources_1/new/mfuncode.vhd,1592967391,vhdl,,,,mfuncode,,,,,,,,
+/run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.srcs/sources_1/new/mopcode.vhd,1592968540,vhdl,,,,mopcode,,,,,,,,
+/run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.srcs/sources_1/new/paqueteHardware.vhd,1592973777,vhdl,/run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.srcs/sources_1/new/arquitectura.vhd,,,paquetehardware,,,,,,,,
+/run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.srcs/sources_1/new/registro.vhd,1592972588,vhdl,,,,registro,,,,,,,,
+/run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/unidadDeControl/unidadDeControl.srcs/sources_1/new/unControl.vhd,1592973202,vhdl,,,,uncontrol,,,,,,,,

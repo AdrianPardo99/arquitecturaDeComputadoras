@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"arquitectura_TB_func_synth.vhd" \
+"../../../../../unidadDeControl.srcs/sim_1/new/arquitectura_TB.vhd" \
+
+# Do not sort compile order
+nosort
