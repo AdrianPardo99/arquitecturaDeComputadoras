@@ -23,3 +23,7 @@ Practica 11 Pila de Hardware 2 con memoria de programa (cambiar ruta de lectura 
 Practica 12 Cartas ASM no necesita archivo de lectura en la carpeta esta todo
 
 Practica 13 Unidad de Control (Para test de cada modulo modificar el top de prioridad de cada archivo "Set as the top", modificar rutas de los archivos de entrada y salida)
+
+Proyecto parte 1 ESCOMIPS con memoria de programa para solucionar la serie de Fibonacci de los primeros 15 términos
+
+Proyecto parte 2 ESCOMIPS con memoria de programa para el algoritmo de burbuja generalizado de un array de N casillas, datos inicializado en M, decremento de O positivo o negativo, y ordenamiento Ascendente-Descendente o Descendente-Ascendente.

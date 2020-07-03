@@ -1,0 +1,2 @@
+Breakpoint File Version 1.0
+45 true /run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/proyecto/proyecto.srcs/sim_1/new/escomips_TB.vhd

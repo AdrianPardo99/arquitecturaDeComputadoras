@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:48:12 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Wed Jul  1 00:01:14 2020
+# Process ID: 280594
+# Current directory: /run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/proyecto/proyecto.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/proyecto/proyecto.sim/sim_1/behav/xsim/xsim.dir/escomips_TB_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/proyecto/proyecto.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/proyecto/proyecto.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/proyecto/proyecto.sim/sim_1/behav/xsim/xsim.dir/escomips_TB_behav/webtalk/xsim_webtalk.tcl -notrace
