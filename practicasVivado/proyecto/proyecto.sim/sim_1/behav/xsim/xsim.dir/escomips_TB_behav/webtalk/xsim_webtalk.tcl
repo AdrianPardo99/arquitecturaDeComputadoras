@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir /run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/proyecto/proyecto.sim/sim_1/behav/xsim/xsim.dir/escomips_TB_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Thu Jul  2 19:51:44 2020" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Mon Jul  6 12:53:36 2020" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2019.2.1 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2729669" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "LIN64" -context "software_version_and_target_device"
@@ -14,11 +14,11 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "bcb19c6b-67ef-47ef-ab64-9435412c6da2" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "f5cc68a3fe494a90b9fc4cc1b7d0ee52" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "164" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "168" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Fedora" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "Fedora release 32 (Thirty Two)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz" -context "user_environment"
-webtalk_add_data -client project -key cpu_speed -value "2129.525 MHz" -context "user_environment"
+webtalk_add_data -client project -key cpu_speed -value "2893.462 MHz" -context "user_environment"
 webtalk_add_data -client project -key total_processors -value "1" -context "user_environment"
 webtalk_add_data -client project -key system_ram -value "12.000 GB" -context "user_environment"
 webtalk_register_client -client xsim
@@ -28,5 +28,5 @@ webtalk_add_data -client xsim -key runtime -value "1 us" -context "xsim\\usage"
 webtalk_add_data -client xsim -key iteration -value "4" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Simulation_Time -value "0.08_sec" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Simulation_Memory -value "126496_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 294383886 -regid "" -xml /run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/proyecto/proyecto.sim/sim_1/behav/xsim/xsim.dir/escomips_TB_behav/webtalk/usage_statistics_ext_xsim.xml -html /run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/proyecto/proyecto.sim/sim_1/behav/xsim/xsim.dir/escomips_TB_behav/webtalk/usage_statistics_ext_xsim.html -wdm /run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/proyecto/proyecto.sim/sim_1/behav/xsim/xsim.dir/escomips_TB_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_transmit -clientid 3643409888 -regid "" -xml /run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/proyecto/proyecto.sim/sim_1/behav/xsim/xsim.dir/escomips_TB_behav/webtalk/usage_statistics_ext_xsim.xml -html /run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/proyecto/proyecto.sim/sim_1/behav/xsim/xsim.dir/escomips_TB_behav/webtalk/usage_statistics_ext_xsim.html -wdm /run/media/d3vcr4ck/externData/materias-Sem20_2/arquitecturaDeComputadoras/arquitecturaDeComputadoras/practicasVivado/proyecto/proyecto.sim/sim_1/behav/xsim/xsim.dir/escomips_TB_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate

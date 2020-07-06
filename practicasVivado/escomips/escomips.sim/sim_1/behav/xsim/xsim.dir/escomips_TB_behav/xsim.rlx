@@ -1,0 +1,12 @@
+
+{ 
+    crc :  17725619304568371226  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto cfce667854d346f7bd25726bff227df6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot escomips_TB_behav xil_defaultlib.escomips_TB" , 
+    buildDate : "Dec  5 2019" , 
+    buildTime : "04:51:02" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/escomips_TB_behav/xsimk\"   \"xsim.dir/escomips_TB_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/escomips_TB_behav/obj/xsim_1.lnx64.o\" -L\"/tools/Xilinx/Vivado/2019.2/lib/lnx64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
