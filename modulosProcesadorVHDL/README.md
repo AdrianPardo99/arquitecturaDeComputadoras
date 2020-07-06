@@ -1,4 +1,4 @@
-##Archivos los cuales conforman el procesador con las siguientes caracteristicas##
+## Archivos los cuales conforman el procesador con las siguientes caracteristicas ##
 
 __Lista de componentes__
 
